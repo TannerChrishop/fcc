@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = 'stylesheet' href = 'styles.css'/>
+        <link href="https://fonts.googleapis.com/css?family=Atomic+Age|Supermercado+One" rel="stylesheet">
+    </head>
+    <body>
+      <div class = 'text'>
+       <h2>Tony Hawk Quote Generator</h2>
+        <button id = 'get'>Get Quote</button>
+        <section class = 'display'></section>
+          </div>
+          <div class = 'bottom'>
+          </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type = 'application/javascript'>
+            
+            function jsonCallback(json){
+                
+                $('#get').on('click', function(){
+                    
+                    $('.display').html('"' + json[Math.floor((Math.random()*35)+1)] + '" <span> - Tony Hawk</span>');
+                });
+            }
+
+            $.ajax({
+                url: "https://codepen.io/tantor/pen/dmyJJo.js",
+                dataType: "jsonp"
+            });  
+        </script>
+    </body>
+</html>

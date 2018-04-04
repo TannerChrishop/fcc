@@ -1,0 +1,32 @@
+html {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Wikipedia-logo-blank.svg/2000px-Wikipedia-logo-blank.svg.png');
+    background-size:700px;
+    background-position:top;
+    background-position-y:40px;
+    background-repeat:no-repeat;
+}
+
+h2 {
+  margin-top:20px;
+  text-align:center;
+  font-family: serif;
+}
+
+.input-group {
+  width:80%;
+  margin:auto;
+}
+ 
+.results {
+  width:80%;
+  margin:auto;
+  border: 1px solid #ddd;
+  border-top:none;
+  border-radius:0 0 10px 10px;
+}
+
+#items {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}

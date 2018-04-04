@@ -1,0 +1,65 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa1KDbVDcaIeaw7LEUpfY1a5iLgzQSuaHAF-ypdSQiZNx0Fhk_');
+    background-position: top;
+    background-size:500px;
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.zero {
+    text-align: center;
+    width:320px;
+    margin:auto;
+    margin-top:70px;
+    font-weight:600;
+    font-size:1.6em;
+    border-top:2px solid #444;
+    border-bottom:2px solid #444;
+    background-color:#ebe3e0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+    width:300px;
+    font-weight:600;
+}
+
+.date {
+    margin-top:40px;
+    position:relative;
+    left:120px;
+}
+
+.one {
+    margin-top:5px;
+    border: 1px solid #444;
+    height:45px;
+}
+
+.two {
+    margin-top:10px;
+    border: 1px solid #444;
+    width:300px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.cond {
+    margin-top:10px;
+}
+
+.feels {
+    margin-right:5px;
+    text-align:right;
+}
+.misc {
+    text-align: center;
+}

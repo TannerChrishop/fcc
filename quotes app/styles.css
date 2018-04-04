@@ -1,0 +1,83 @@
+html, body {
+    height: 100%; width: 100%;
+    padding: 0; margin: 0;
+}
+
+body {
+    background-repeat:no-repeat bottom center;
+    background-size:cover;    
+    font-family: serif;
+    background: steelblue url('http://www2.pictures.zimbio.com/pc/Skateboarder+Tony+Hawk+18+1986+part+just+released+q2iwO2YKmvkl.jpg') no-repeat;
+    background-size:260%;
+    background-position:-500px;
+}
+
+.text {
+    background:radial-gradient(powderblue, powderblue, steelblue);
+    border-radius:20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Atomic Age', cursive;
+    color: darkred;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+span {
+    font-family: 'Supermercado One', cursive;
+}
+
+.top {
+    text-align:center;
+}
+
+#get {
+    text-align:center;
+    border: orange inset 1px;
+    background-color: lightcyan;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 430px) {
+    
+    body {
+        background-position:-430px;
+        background-size:220%;
+    }    
+}
+
+@media only screen and (min-width: 520px) {
+    
+    body {
+        background-position:-460px;
+        background-size:200%;
+    }    
+}
+
+@media only screen and (min-width: 700px) {
+    
+    body {
+        background-position:-510px;
+        background-size:180%;
+    }    
+}
+
+@media only screen and (min-width: 930px) {
+    
+    body {
+        background-position:-540px;
+        background-size:160%;
+    }    
+}
+
+@media only screen and (min-width: 1050px) {
+    
+    body {
+        background-position:0px;
+        background-size:100%;
+    }    
+}

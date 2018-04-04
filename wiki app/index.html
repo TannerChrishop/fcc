@@ -1,0 +1,23 @@
+<!doctype = html>
+ <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel = "stylesheet" href ='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+    <link rel = "stylesheet" href = "styles.css"/>
+  </head>
+  <body>
+    <h2>Wiki Viewer</h2>
+    <div class="input-group">
+      <input id = 'search' type="text" class="form-control" placeholder="search the wiki">
+      <div class="input-group-append">
+        <button id = 'submit' class="btn btn-outline-info" type="button">Search</button>
+        <button onclick="location.href='https://en.wikipedia.org/wiki/Special:Random';" class="btn btn-outline-dark" type="button">Random</button>
+      </div>
+    </div>
+    <div class = 'results'>
+      <ul id = 'items'></ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = 'app.js'></script>
+  </body>
+</html>
